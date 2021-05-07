@@ -1,7 +1,7 @@
 # idee du projet
 
-un mini projet qui contient la page :
-register
+un mini projet qui contient la page : <br>
+register 
 login
 home
 contact
