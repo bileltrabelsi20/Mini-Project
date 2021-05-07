@@ -1,4 +1,11 @@
-# Connect
+# idee du projet
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+un mini projet qui contient la page :
+register
+login
+home
+contact
+admin
 
+frontend : angular 11 
+backend : nodeJs
