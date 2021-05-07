@@ -1,0 +1,45 @@
+<body>
+    <nav class="navbar navbar-light "  >
+		<div class="positionNavBar">
+		  <a class="navbar-brand" href="/home">Home</a>
+		  <a class="navbar-brand" href="register">Register</a>
+		  <a class="navbar-brand" href="/login">Login</a>
+		  <a class="navbar-brand" href="/contact">Contact Us</a>
+
+		</div>
+	  </nav>
+	  <br><br><br><br><br>
+
+	<div class="zz" >
+		<div class="example-container">
+			<form class="form" [formGroup]="userContact"  >
+
+				<mat-card class="aa" >
+					
+					<h3>Contact Us</h3><br>                   
+
+					<mat-form-field appearance="fill">
+						<mat-label>Nom</mat-label>
+						<input formControlName="name" matInput placeholder="ur Email"   >
+					  </mat-form-field> &nbsp;
+			
+					  <mat-form-field appearance="fill">
+						<mat-label>Email</mat-label>
+						<input formControlName="email" matInput placeholder="password" type="email"   >
+					  </mat-form-field> &nbsp; <br>
+
+					  <mat-form-field appearance="fill">
+						<mat-label>Message</mat-label>
+						<textarea formControlName="message" matInput placeholder="live your message here" class="long field-textarea"></textarea>
+					  </mat-form-field> &nbsp;
+
+                      <button mat-raised-button color="warn">Envoyer</button>
+			
+				</mat-card>
+				 
+			</form>
+		</div>
+	</div>
+
+	
+</body>

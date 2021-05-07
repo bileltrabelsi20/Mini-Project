@@ -1,0 +1,28 @@
+.example-container  {
+  margin-left: 550px;
+  text-align: center;
+
+
+}
+
+.aa{
+width: 250px;
+background-color: rgb(235, 230, 230);
+/* margin-top: 180px; */
+
+}
+body{
+background-color: rgb(223, 220, 206);
+}
+a , h3{
+font-family:Calibri
+
+}
+.positionNavBar{
+margin-left: 30px;
+margin-top: 10px;
+}
+
+
+
+
